@@ -19,7 +19,7 @@ for ii in values:
         l.append(f"{n:.2f}")
     values_in_meter.append(l)
 
-output_values = sorted(values, key=lambda x: float(x[2]))
+output_values = sorted(values_in_meter, key=lambda x: float(x[2]))
 
 with open("output.txt", "w") as output_file:
     a = ''
