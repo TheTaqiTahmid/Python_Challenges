@@ -6,7 +6,6 @@ pipeline {
                 sh 'echo "Hello World"'
                 sh '''
                     ls -lah
-			  input.txt
                 	 '''
             }
         }
